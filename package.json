@@ -1,0 +1,24 @@
+{
+  "name": "totheworld20212202.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev":"parcel index.html",
+    "build":"parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/totheworld20212202/totheworld20212202.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/totheworld20212202/totheworld20212202.github.io/issues"
+  },
+  "homepage": "https://github.com/totheworld20212202/totheworld20212202.github.io#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}
