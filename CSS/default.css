@@ -3,14 +3,25 @@ html, body{
     height:100%;
     overflow:hidden;
 }
+ 
 
 #container{
     background-color: #EFFBF2;
     height:100%;
+    box-shadow: 10px -16px #F5BCA9;
 }
 #title{
     text-align:center;
+    position:relative;
+    /*margin-top:10px;*/
+    /*border:1px solid red;*/
+    padding : 40px;
     
+}
+#title h1{
+    font-weight: bold;
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 /************** BEGIN : GRIDVIEW ***************/ 
@@ -36,3 +47,64 @@ html, body{
 .col-11 {width:91.66%} /* 11칸 짜리 폭 */ 
 .col-12 {width:100%} /* 12칸 짜리 폭 */ 
 /************** END : GRIDVIEW ***************/ 
+
+
+ul {
+    list-style:none;
+    padding-left:0px;
+}
+.type{
+    color:red;
+    width:140px;
+    font-size:30px;
+    /*
+     border:1px solid blue;
+    */
+     
+    display:inline-block;
+    padding:10px;
+}
+.content{
+    width:400px;
+    font-size:30px;
+     /*
+     border:1px solid blue;
+    */
+    display:inline-block;
+    padding:10px;
+}
+
+#about{
+    background-color:#FBEFEF;
+    min-height:300px;
+    padding:10px;
+}
+#Education{
+    background-color:#EFFBFB;
+    min-height:300px;
+    padding:10px;
+}
+#Experience{
+    background-color:#FBFBEF;
+    min-height:400px;
+    padding:10px;
+}
+#Skills{
+    background-color:#EFF5FB;
+    min-height:600px;
+    padding:10px;
+}
+#Interests{
+    background-color:#E6E6E6;
+    min-height:600px;
+    padding:10px;
+}
+#photo{
+    float:right;
+    border:1px solid green;
+    padding:60px;
+    background-color:gray;
+    margin-right:20px;
+    height:180px;
+    
+}
